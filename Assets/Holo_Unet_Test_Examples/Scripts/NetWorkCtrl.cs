@@ -11,23 +11,32 @@ public class NetWorkCtrl : MonoBehaviour {
         networkManager = GetComponent<NetworkManager>();
     }
 
+    /// <summary>
+    /// 打开本地服务器
+    /// </summary>
     public void StartHost()
     {
         Debug.Log("StartingHost");
         networkManager.StartHost();
         Debug.Log("StartHost");
     }
-
+    /// <summary>
+    /// 创建链接
+    /// </summary>
     public void StartClient()
     {
         netClient = networkManager.StartClient();
     }
-
+    /// <summary>
+    /// 关闭链接
+    /// </summary>
     public void StopClient()
     {
         networkManager.StopClient();
     }
-
+    /// <summary>
+    /// 关闭本地数据库
+    /// </summary>
     public void StopHost()
     {
         networkManager.StopHost();
