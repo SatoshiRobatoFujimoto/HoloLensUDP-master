@@ -8,7 +8,7 @@ public class NetWorkCtrl : MonoBehaviour {
     NetworkClient netClient;
 	// Use this for initialization
 	void Start () {
-		//寻找组件
+		//寻找组件Net
         networkManager = GetComponent<NetworkManager>();
     }
 
