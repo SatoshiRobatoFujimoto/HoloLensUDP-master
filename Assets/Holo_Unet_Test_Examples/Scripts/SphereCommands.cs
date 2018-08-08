@@ -35,6 +35,10 @@ public class SphereCommands : MonoBehaviour
         {
             var rigidbody = this.gameObject.AddComponent<Rigidbody>();
             rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
+            if(this.gameObject.name=="Client")
+            {
+                GameObject.Find("NetWorkManager").SendMessage("StartClient");
+            }
         }
     }
 

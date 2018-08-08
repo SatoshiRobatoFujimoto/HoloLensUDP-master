@@ -1,2 +1,0 @@
-D:\GuiQi\UnityProject\HoloLensUDP-master\HoloLensUDP-master\buildExe06\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
-D:\GuiQi\UnityProject\HoloLensUDP-master\HoloLensUDP-master\buildExe06\Hololens_UDP\Hololens_UDP.csproj;x86

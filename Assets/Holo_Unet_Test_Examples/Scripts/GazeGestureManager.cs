@@ -11,6 +11,7 @@ public class GazeGestureManager : MonoBehaviour {
     public GameObject FocusedObject { get; private set; }
 
     GestureRecognizer recognizer;
+    GameObject oldFocusObject;
 
     // Use this for initialization
     void Start()
@@ -34,7 +35,7 @@ public class GazeGestureManager : MonoBehaviour {
     void Update()
     {
         // Figure out which hologram is focused this frame.
-        GameObject oldFocusObject = FocusedObject;
+        oldFocusObject = FocusedObject;
 
         // Do a raycast into the world based on the user's
         // head position and orientation.
