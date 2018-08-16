@@ -5,13 +5,13 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-Hololens_UDP.sln: D6F69F58C04AC9AFADF813A29BAA68CC
+Hololens_UDP.sln: AF4F29BB5F1FCC675531779538AEC562
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
 Hololens_UDP\App.cs: 45706B48552726C46B38AD479BC06935
 Hololens_UDP\AssemblyConverterArgs.txt: 174D75DCDB2D022CF26F77004B76364F
-Hololens_UDP\Hololens_UDP.csproj: 24344849F21C7032FD36FAF2A7533C69
+Hololens_UDP\Hololens_UDP.csproj: FD7C747B69359D042741B70D3DCD70CC
 Hololens_UDP\Hololens_UDP.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
-Hololens_UDP\Package.appxmanifest: 98375F51DA9FD291972EA0C778B4E156
+Hololens_UDP\Package.appxmanifest: 723BD3684ED41001AB76DF5A29A5C12A
 Hololens_UDP\project.json: 1D02BC64BAC0D041019673A1C4C51737
 Hololens_UDP\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
 Hololens_UDP\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084

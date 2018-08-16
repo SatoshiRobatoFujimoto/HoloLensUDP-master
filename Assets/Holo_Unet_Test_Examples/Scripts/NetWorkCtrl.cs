@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class NetWorkCtrl : MonoBehaviour {
+public class NetWorkCtrl : MonoBehaviour
+{
     NetworkManager networkManager;
     NetworkClient netClient;
-	// Use this for initialization
-	void Start () {
-		//寻找组件NetworkManager
+    // Use this for initialization
+    void Start()
+    {
+        //寻找组件NetworkManager
         networkManager = GetComponent<NetworkManager>();
+        
     }
 
     /// <summary>
@@ -18,6 +21,7 @@ public class NetWorkCtrl : MonoBehaviour {
     public void StartHost()
     {
         Debug.Log("StartingHost");
+        networkManager.SetMatchHost("192.168.199.166", 52245, false);
         networkManager.StartHost();
         Debug.Log("StartHost");
     }
@@ -26,7 +30,7 @@ public class NetWorkCtrl : MonoBehaviour {
     /// </summary>
     public void StartClient()
     {
-        netClient = networkManager.StartClient();
+        networkManager.StartClient();
     }
     /// <summary>
     /// 关闭链接
